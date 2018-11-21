@@ -1,26 +1,26 @@
-i Freq_Odd
-i Lock_Odd
-i Freq_Even
-i Lock_Even
-i Level_CV_1
-i Level_CV_2
-i Level_CV_3
-i Level_CV_4
-i Level_CV_5
-i Level_CV_6
-i Odds
-i Evens
-i Rotate_Trig_Anti-Clockwise
-i Scale_CV
-i Res_(Q)
-i Rotate_Trig_Clockwise
-i Morph
-i Spread
-o Env_Out_1
-o Env_Out_2
-o Env_Out_3
-o Env_Out_4
-o Env_Out_5
-o Env_Out_6
-o Odds
-o Evens
+c i Freq_Odd
+c i Lock_Odd
+c i Freq_Even
+c i Lock_Even
+c i Level_CV_1
+c i Level_CV_2
+c i Level_CV_3
+c i Level_CV_4
+c i Level_CV_5
+c i Level_CV_6
+c i Odds
+c i Evens
+c i Rotate_Trig_Anti-Clockwise
+c i Scale_CV
+c i Res_(Q)
+c i Rotate_Trig_Clockwise
+c i Morph
+c i Spread
+c o Env_Out_1
+c o Env_Out_2
+c o Env_Out_3
+c o Env_Out_4
+c o Env_Out_5
+c o Env_Out_6
+a o Odds
+a o Evens

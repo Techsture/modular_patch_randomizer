@@ -1,5 +1,5 @@
-i Closed
-i Open
-i Decay
-i Sizzle
-o Out
+c i Closed
+c i Open
+c i Decay
+c i Sizzle
+a o Out

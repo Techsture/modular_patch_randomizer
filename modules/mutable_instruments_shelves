@@ -1,14 +1,14 @@
-i Freq_Hi
-i Gain_Hi
-i Freq_Hi_Mid
-i Gain_Hi_Mid
-i Q_Hi_Mid
-i Freq_Low_Mid
-i Gain_Low_Mid
-i Q_Low_Mid
-i Freq_Low
-i Gain_Low
-i Global_Freq
-i Global_Gain
-i In
-o Out
+c i Freq_Hi
+c i Gain_Hi
+c i Freq_Hi_Mid
+c i Gain_Hi_Mid
+c i Q_Hi_Mid
+c i Freq_Low_Mid
+c i Gain_Low_Mid
+c i Q_Low_Mid
+c i Freq_Low
+c i Gain_Low
+c i Global_Freq
+c i Global_Gain
+a i In
+a o Out

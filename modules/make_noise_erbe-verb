@@ -1,13 +1,13 @@
-i In
-i Reverse
-i Tempo
-i Size
-i Spd
-i Dpth
-i Pre
-i Tilt
-i Absrb
-i Dcy
-o CV_Out
-o L_(Mono)_Out
-o R_Out
+a i In
+c i Reverse
+c i Tempo
+c i Size
+c i Spd
+c i Dpth
+c i Pre
+c i Tilt
+c i Absrb
+c i Dcy
+c o CV_Out
+a o L_(Mono)_Out
+a o R_Out

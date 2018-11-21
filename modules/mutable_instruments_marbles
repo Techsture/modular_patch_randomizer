@@ -1,16 +1,16 @@
-i t_Bias
-i X_Bias
-i t_Clock
-i X_Clock
-i Rate
-i Jitter
-i Deja_Vu
-i Steps
-i Spread
-o t1
-o t2
-o t3
-o Y
-o X1
-o X2
-o X3
+c i t_Bias
+c i X_Bias
+c i t_Clock
+c i X_Clock
+c i Rate
+c i Jitter
+c i Deja_Vu
+c i Steps
+c i Spread
+c o t1
+c o t2
+c o t3
+c o Y
+c o X1
+c o X2
+c o X3

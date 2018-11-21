@@ -1,11 +1,11 @@
-i Pitch
-i Attack
-i S_L_M
-i Spread
-i Morph
-i Decay
-i B_A_T
-i Harm
-i Fold
-i Trig
-o Out
+c i Pitch
+c i Attack
+c i S_L_M
+c i Spread
+c i Morph
+c i Decay
+c i B_A_T
+c i Harm
+c i Fold
+c i Trig
+a o Out

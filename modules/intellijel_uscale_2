@@ -1,4 +1,4 @@
-i 1v_Oct
-i Shift
-o Out_A
-o Out_B
+c i 1v_Oct
+c i Shift
+c o Out_A
+c o Out_B

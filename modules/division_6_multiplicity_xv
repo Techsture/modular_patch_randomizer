@@ -1,20 +1,20 @@
-i In_1
-i In_2
-i In_3
-i In_4
-i In_5
-o Out_1-1
-o Out_1-2
-o Out_1-3
-o Out_2-1
-o Out_2-2
-o Out_2-3
-o Out_3-1
-o Out_3-2
-o Out_3-3
-o Out_4-1
-o Out_4-2
-o Out_4-3
-o Out_5-1
-o Out_5-2
-o Out_5-3
+c i In_1
+c i In_2
+c i In_3
+c i In_4
+c i In_5
+c o Out_1-1
+c o Out_1-2
+c o Out_1-3
+c o Out_2-1
+c o Out_2-2
+c o Out_2-3
+c o Out_3-1
+c o Out_3-2
+c o Out_3-3
+c o Out_4-1
+c o Out_4-2
+c o Out_4-3
+c o Out_5-1
+c o Out_5-2
+c o Out_5-3

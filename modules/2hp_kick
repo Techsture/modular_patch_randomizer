@@ -1,6 +1,6 @@
-i Trig
-i Tone
-i Snap
-i Decay
-i V_Oct
-o Out
+c i Trig
+c i Tone
+c i Snap
+c i Decay
+c i V_Oct
+a o Out

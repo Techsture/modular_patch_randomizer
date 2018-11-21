@@ -1,10 +1,10 @@
-i Strum
-i Frequency
-i Damping
-i Structure
-i Position
-i Strum
-i V_Oct
-i In
-o Odd
-o Even
+c i Strum
+c i Frequency
+c i Damping
+c i Structure
+c i Position
+c i Strum
+c i V_Oct
+a i In
+a o Odd
+a o Even

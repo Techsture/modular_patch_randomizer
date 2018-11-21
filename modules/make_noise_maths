@@ -1,25 +1,25 @@
-i 1_In
-i 1_Trig
-i 1_Rise
-i 1_Both
-i 1_Fall
-i 1_Cycle
-i 2_Attenuverter
-i 3_Attenuverter
-i 4_In
-i 4_Trig
-i 4_Rise
-i 4_Both
-i 4_Fall
-i 4_Cycle
-o 1_Out
-o 2_Out
-o 3_Out
-o 4_Out
-o EOR
-o LFO_1_Out
-o Or
-o Sum
-o Inv
-o LFO_4_Out
-o EOC
+c i 1_In
+c i 1_Trig
+c i 1_Rise
+c i 1_Both
+c i 1_Fall
+c i 1_Cycle
+c i 2_Attenuverter
+c i 3_Attenuverter
+c i 4_In
+c i 4_Trig
+c i 4_Rise
+c i 4_Both
+c i 4_Fall
+c i 4_Cycle
+c o 1_Out
+c o 2_Out
+c o 3_Out
+c o 4_Out
+c o EOR
+c o LFO_1_Out
+c o Or
+c o Sum
+c o Inv
+c o LFO_4_Out
+c o EOC

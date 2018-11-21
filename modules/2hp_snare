@@ -1,5 +1,5 @@
-i Trig
-i Snap
-i Decay
-i V_Oct
-o Out
+c i Trig
+c i Snap
+c i Decay
+c i V_Oct
+a o Out

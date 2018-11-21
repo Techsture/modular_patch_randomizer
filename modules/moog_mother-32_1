@@ -1,32 +1,32 @@
-i Ext_Audio
-i Mix_CV
-i VCA_CV
-i VCF_Cutoff
-i VCF_Res
-i VCO_1v_Oct
-i VCO_Lin_FM
-i VCO_Mod
-i LFO_Rate
-i Mix_1
-i Mix_2
-i VC_Mix_Ctrl
-i Mult
-i Gate
-i Tempo
-i Run_Stop
-i Reset
-i Hold
-o VCA
-o Noise
-o VCF
-o VCO_Saw
-o VCO_Pulse
-o LFO_Tri
-o LFO_Sq
-o VC_Mix
-o Mult_1
-o Mult_2
-o Assign
-o EG
-o KB
-o Gate
+a i Ext_Audio
+c i Mix_CV
+c i VCA_CV
+c i VCF_Cutoff
+c i VCF_Res
+c i VCO_1v_Oct
+c i VCO_Lin_FM
+c i VCO_Mod
+c i LFO_Rate
+c i Mix_1
+c i Mix_2
+c i VC_Mix_Ctrl
+c i Mult
+c i Gate
+c i Tempo
+c i Run_Stop
+c i Reset
+c i Hold
+a o VCA
+a o Noise
+c o VCF
+c o VCO_Saw
+c o VCO_Pulse
+c o LFO_Tri
+c o LFO_Sq
+c o VC_Mix
+c o Mult_1
+c o Mult_2
+c o Assign
+c o EG
+c o KB
+c o Gate

@@ -1,24 +1,24 @@
-i Trigger
-i VCA_CV
-i Velocity
-i VCA_Decay
-i Ext_Audio
-i VCF_Decay
-i Noise_Level
-i VCO_Decay
-i VCF_Mod
-i VCO_1_CV
-i 1-2_FM_Amt
-i VCO_2_CV
-i Tempo
-i Run_Stop
-i Adv_Clock
-o VCA
-o VCA_EG
-o VCF_EG
-o VCO_EG
-o VCO_1
-o VCO_2
-o Trigger
-o Velocity
-o Pitch
+c i Trigger
+c i VCA_CV
+c i Velocity
+c i VCA_Decay
+a i Ext_Audio
+c i VCF_Decay
+c i Noise_Level
+c i VCO_Decay
+c i VCF_Mod
+c i VCO_1_CV
+c i 1-2_FM_Amt
+c i VCO_2_CV
+c i Tempo
+c i Run_Stop
+c i Adv_Clock
+a o VCA
+c o VCA_EG
+c o VCF_EG
+c o VCO_EG
+c o VCO_1
+c o VCO_2
+c o Trigger
+c o Velocity
+c o Pitch

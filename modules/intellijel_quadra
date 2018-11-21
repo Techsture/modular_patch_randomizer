@@ -1,8 +1,8 @@
-i Trig_1
-i Trig_2
-i Trig_3
-i Trig_4
-o Env_1
-o Env_2
-o Env_3
-o Env_4
+c i Trig_1
+c i Trig_2
+c i Trig_3
+c i Trig_4
+c o Env_1
+c o Env_2
+c o Env_3
+c o Env_4

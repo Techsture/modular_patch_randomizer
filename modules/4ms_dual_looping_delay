@@ -1,22 +1,22 @@
-i In_A
-i In_B
-i Ping
-i Return_A
-i Reverse_A
-i Reverse_B
-i Hold_A
-i Hold_B
-i Return_B
-i Time_A
-i Feedback_A
-i Delay_Feed_A
-i Delay_Feed_B
-i Feedback_B
-i Time_B
-o Loop_A_Clock_Out
-o Loop_B_Clock_Out
-o Clock_Out
-o Out_A
-o Out_B
-o Send_A
-o Send_B
+a i In_A
+a i In_B
+c i Ping
+a i Return_A
+c i Reverse_A
+c i Reverse_B
+c i Hold_A
+c i Hold_B
+a i Return_B
+c i Time_A
+c i Feedback_A
+c i Delay_Feed_A
+c i Delay_Feed_B
+c i Feedback_B
+c i Time_B
+c o Loop_A_Clock_Out
+c o Loop_B_Clock_Out
+c o Clock_Out
+a o Out_A
+a o Out_B
+a o Send_A
+a o Send_B

@@ -1,5 +1,5 @@
-i In
-i Time
-i Fdbk
-i Mix
-o Out
+a i In
+c i Time
+c i Fdbk
+c i Mix
+a o Out

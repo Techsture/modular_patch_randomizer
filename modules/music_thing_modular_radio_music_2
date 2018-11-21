@@ -1,4 +1,4 @@
-i Station
-i Start
-i Reset
-o Out
+c i Station
+c i Start
+c i Reset
+a o Out

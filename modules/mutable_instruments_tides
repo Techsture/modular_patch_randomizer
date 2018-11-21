@@ -1,13 +1,13 @@
-i Shape
-i Slope
-i Smoothness
-i Trig
-i Freeze
-i V_Oct
-i FM
-i Level
-i Clock
-o High
-o Low
-o Uni
-o Bi
+c i Shape
+c i Slope
+c i Smoothness
+c i Trig
+c i Freeze
+c i V_Oct
+c i FM
+c i Level
+c i Clock
+c o High
+c o Low
+c o Uni
+c o Bi

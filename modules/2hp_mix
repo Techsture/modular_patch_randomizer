@@ -1,5 +1,5 @@
-i In_1
-i In_2
-i In_3
-i In_4
-i Out
+c i In_1
+c i In_2
+c i In_3
+c i In_4
+a o Out

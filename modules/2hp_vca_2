@@ -1,6 +1,6 @@
-i In_1
-i In_2
-i CV_1
-i CV_2
-o Out_1
-o Out_2
+c i In_1
+c i In_2
+c i CV_1
+c i CV_2
+c o Out_1
+c o Out_2

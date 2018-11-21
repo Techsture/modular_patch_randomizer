@@ -1,18 +1,18 @@
-i L_(Mono)
-i R
-i SOS
-i Gene-Size
-i Slide
-i Morph
-i Vari-Speed
-i Organize
-i Clk
-i Shift
-i Play
-i Rec
-i Shift
-i Splice
-o L_(Mono)
-o R
-o CV_Out
-o EOSG
+a i L_(Mono)
+a i R
+c i SOS
+c i Gene-Size
+c i Slide
+c i Morph
+c i Vari-Speed
+c i Organize
+c i Clk
+c i Shift
+c i Play
+c i Rec
+c i Shift
+c i Splice
+a o L_(Mono)
+a o R
+c o CV_Out
+c o EOSG

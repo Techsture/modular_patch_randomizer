@@ -1,10 +1,10 @@
-i Model
-i Timbre
-i FM
-i Morph
-i Harmo
-i Trig
-i Level
-i V_Oct
-o Out
-o Aux
+c i Model
+c i Timbre
+c i FM
+c i Morph
+c i Harmo
+c i Trig
+c i Level
+c i V_Oct
+a o Out
+a o Aux

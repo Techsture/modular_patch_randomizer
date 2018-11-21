@@ -1,5 +1,5 @@
-i Clock
-i CV
-o Pulse
-o Noise
-o Out
+c i Clock
+c i CV
+c o Pulse
+a o Noise
+c o Out

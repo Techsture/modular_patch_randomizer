@@ -1,8 +1,8 @@
-i X
-i Mod
-i Decay
-i Y
-i Pitch
-i Trig
-i Vel
-o Out
+c i X
+c i Mod
+c i Decay
+c i Y
+c i Pitch
+c i Trig
+c i Vel
+a o Out
