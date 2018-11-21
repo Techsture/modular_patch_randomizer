@@ -1,5 +1,6 @@
 #!/usr/bin/python
 
+import argparse
 import os
 import random
 import sys
@@ -38,19 +39,21 @@ def generate_output_list():
   return output_list
 
 
-def generate_patch(output_list, input_list, number_of_modules, longest_string_length):
-  patch = ""
+def generate_patch(output_list, input_list, number_of_patches, longest_string_length):
+  patch_list = []
   random.shuffle(output_list)
   random.shuffle(input_list)
-  for i in range(0, number_of_modules):
+  for i in range(0, number_of_patches):
+    patch = ""
     output_choice = output_list.pop()
     input_choice = input_list.pop()
     padding_amount = longest_string_length - len(output_choice)
     padding = ""
     for i in range(0, padding_amount):
       padding += " "
-    patch += output_choice + padding + " => " + input_choice + "\n"
-  return patch
+    patch += output_choice + padding + " => " + input_choice
+    patch_list.append(patch)
+  return patch_list
 
 
 def get_number_of_modules():
@@ -61,13 +64,30 @@ def get_number_of_modules():
 
 
 def main():
+  parser = argparse.ArgumentParser()
+  parser.add_argument("--complex_mode", help="Use all available outputs or inputs (whichever there is less of).", action="store_true")
+  args = parser.parse_args()
+  complex_mode = args.complex_mode
   number_of_modules = get_number_of_modules()
   output_list = generate_output_list()
+  number_of_outputs = len(output_list)
   input_list = generate_input_list()
+  number_of_inputs = len(input_list)
+  # More troubleshooting:
+  #print("There are {} outputs and {} inputs.".format(number_of_outputs, number_of_inputs))
+  if number_of_inputs < number_of_outputs:
+    number_of_complex_patches = number_of_inputs
+  else:
+    number_of_complex_patches = number_of_outputs
   longest_string_length = len(max(output_list, key=len))
-  patch = generate_patch(output_list, input_list, number_of_modules, longest_string_length)
+  if complex_mode is True:
+    patch_list = generate_patch(output_list, input_list, number_of_complex_patches, longest_string_length)
+  else:
+    patch_list = generate_patch(output_list, input_list, number_of_modules, longest_string_length)
   print("Your random patch is:\n")
-  print(patch)
+  patch_list.sort()
+  for patch in patch_list:
+    print("  " + patch)
   exit()
 
 
