@@ -124,6 +124,7 @@ def main():
   cv_patch_list = generate_patch(cv_output_list, cv_input_list, number_of_cv_patches, longest_string_length)
   audio_patch_list.sort()
   cv_patch_list.sort()
+  # http://patorjk.com/software/taag/#p=display&h=1&v=1&f=Stop&t=Modular%0APatch%0ARandomizer
   print(""" ______              _         _                                   
 |  ___ \            | |       | |                                  
 | | _ | |  ___    _ | | _   _ | |  ____   ____                     
@@ -136,8 +137,8 @@ def main():
 |  ____// _  ||  _) / ___)| || \                                   
 | |    ( ( | || |__( (___ | | | |                                  
 |_|     \_||_| \___)\____)|_| |_|                                  
- ______                     _                                     
-(_____ \                   | |                                  
+ ______                     _                _                     
+(_____ \                   | |              (_)                    
  _____) )  ____  ____    _ | |  ___   ____   _  _____  ____   ____ 
 (_____ (  / _  ||  _ \  / || | / _ \ |    \ | |(___  )/ _  ) / ___)
       | |( ( | || | | |( (_| || |_| || | | || | / __/( (/ / | |    
